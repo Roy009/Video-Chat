@@ -15,7 +15,7 @@ const LobbyScreen = () => {
     return(
         <div>
             <h1>Lobby</h1>
-            <form onSubmit={handelSubmit}>
+            <form onSubmit={handelSubmit}           >
                 <label>Email ID</label>
                 <input 
                 type="email" 
